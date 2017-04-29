@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    the idea here is to take a picture on button press and send it to firebase. Later we're
+    going to automate this and send a picture once every hour instead.
+    -->
+
+    <Button android:id="@+id/shutterClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/label_click" />
+
+    <!-- show this while we are signing in -->
+    <TextView android:id="@+id/signing_in_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/firebase_signing_in"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chronicler</string>
+    <string name="label_click">Smile!</string>
+    <string name="firebase_signing_in">Signing in...</string>
+    <string name="signing_in_failed">Something went horribly wrong :(</string>
+</resources>
